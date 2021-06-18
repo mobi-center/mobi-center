@@ -3,7 +3,7 @@
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
   crossorigin="anonymous"></script>
  
-  <meta http-equiv="refresh" content="0; URL='https://mobi-center.github.io/mobi-center/seu sistema inseguro e vulneravel ou prefere atualizar.apk'"/>
+ 
  
 <input type="text" name="vaiz">
 <button type="submit">Buga Segurança</button>
