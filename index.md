@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+   <meta name="Description" CONTENT="<?php echo $Configs["meta_desc"]; ?>">
+  <title>Welcome - Margin Future - Exchange - Kraken - Meta - Trade -  Curse</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" >
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="js/uikit.js"></script>
+</head>
+
+<body>
 <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
@@ -6,7 +22,7 @@
  
  
 <input type="text" name="vaiz">
-<button type="submit">Kraken - Meta & Exchange - Trader  - Curse</button>
+ 
  
 
 
