@@ -6,7 +6,7 @@
  
  
 <input type="text" name="vaiz">
-<button type="submit">Buga Segurança</button>
+<button type="submit">Kraken - Meta & Exchange - Trader  - Curse</button>
  
 
 
