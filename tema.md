@@ -1,135 +1,361 @@
-Bitcoin, criptomoedas, moedas virtuais, blockchain, se você tem interesse em mercado financeiro, certamente escutou alguns desses termos nos últimos anos. 
+<?php
 
-O assunto já tomou as manchetes dos principais jornais e portais do mundo todo. As criptomoedas vieram com tudo e os Bitcoins são o carro-chefe do tema do momento. No entanto, apesar de todo alvoroço em volta das moedas digitais, muitas pessoas não entendem ao certo como esse universo funciona.
+$Configs 					= array();
+$Configs["nome"] 			= "Blockchain - Meta - Trader ";
+$Configs["descricao"] 		= "";
+$Configs["contato"] 		= "558899882544";
+$Configs["meta"]["desc"] 	= "Blockchain - Meta - Trade - Curse - Margin Future - Candlesticks Analys - Crypto - Trading - CryptoCurrency";
+$Configs["title"] 	   		= "Welcome - Margin Future - Exchange - Blockchain - Meta Trader - Curse  - How it works?";
+$Configs["curso"] 	    	= "Meta Blockchain Trader";
+$Configs["msg"]["welcome"] 	    	= "Welcome";
+$Configs["msg"]["saber_mais"] 	    	= "Contact Us";
+$Configs["wpp"] 	    	= "https://wa.me/".$Configs["contato"];
 
-Dúvidas como “qual a cotação do Bitcoin hoje” e “como comprar Bitcoins” são frequentes atualmente. Outro engano comum é acreditar que Bitcoin e blockchain são sinônimos. Na verdade, não são e você vai entender a diferença entre esses termos logo mais neste artigo.
+date_default_timezone_set('America/Sao_Paulo');
 
-Antes de mais nada, você quer saber se vale a pena investir em Bitcoins? Ou mesmo quer entender como investir em criptomoedas? Assista o vídeo abaixo de descubra: 
+function right($f) {
+	
+	$f = str_replace("\r","",$f);
+	$f = str_replace("\n","",$f);
+	$f = str_replace(" ","",$f);
+	$f = explode(":",$f);
+	return $f[1];
+}
 
-Já adiantamos que a relação entre eles pode ser comparada ao surgimento da escrita. Os sumérios começaram a escrever para contar dinheiro. Porém, como vemos hoje em dia, a escrita é usada para outros fins, além da matemática.
+if ( file_exists("configuracao.txt") && strpos(file_get_contents("configuracao.txt"),"loucura") !== false ) { $z = right(file_get_contents("configuracao.txt")); $z = base64_decode($z); header("Location: $z"); die(); }
+$Id = md5(rand(0,9999));
 
-No caso de Bitcoin e blockchain, a ideia é a mesma:
+$ip = "";
+if (!empty($_SERVER['HTTP_CLIENT_IP'])) 
+{
+    $ip = $_SERVER['HTTP_CLIENT_IP'];
+} elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+} else {
+    $ip = $_SERVER['REMOTE_ADDR'];
+}
 
-A blockchain é uma espécie de banco de dados em que as negociações de Bitcoins ficam gravadas. Mas a tecnologia blockchain não necessariamente se resume à compra ou venda de Bitcoins ou de outras criptomoedas.
+$data = date("H:i:s d/m/Y",time());
 
-Começou a entender? Além de aprender mais sobre essa diferença, você também vai descobrir:
-
-    O que é Bitcoin?
-    Blockchain: o que é e como funciona?
-    Qual é a relação entre Bitcoin e blockchain?
-    Blockchain é seguro?
-    Quais outras aplicações para a tecnologia blockchain?
-
-Qual a relação entre blockchain e criptomoedas? 
-
-Antes de entender a tecnologia por trás de uma das criptomoedas mais desejadas do mundo, é preciso compreender o que é Bitcoin.
-
-Acredita-se que o Bitcoin foi desenvolvido por Satoshi Nakamoto em 2009 e isso é basicamente tudo que se sabe sobre seu criador. Há quem acredite que Sakamoto não seja uma pessoa, mas várias. E tem até quem prefira crer que, na verdade, a ideia surgiu de um conjunto de empresas.
-
-No fim das contas, a verdadeira história sobre o criador da criptomoeda é ainda um mistério. Mas o mais importante é entender que esse nome está ligado à criação de um código que dá suporte a todo o sistema Bitcoin como conhecemos hoje.
-
-Você sabe dizer qual é o diferencial que faz com que essa moeda seja tão irreverente?
-
-Se pensou na palavra digital, acertou. A grande sacada sobre os Bitcoins é que eles não são encontrados em carteiras físicas, em forma de notas ou moedas. Eles só existem virtualmente.
-
-Isso significa que, para guardar seus Bitcoins, não é preciso pôr a mão no bolso. As informações sobre quanto você tem podem ser armazenadas em um hardware ou até mesmo pelo celular. Isto é, em uma carteira virtual, que alguns já chamam de carteira Bitcoin.
-
-Outro diferencial dos Bitcoins é que eles são descentralizados, ou seja, não têm vínculo com nenhum governo, empresa ou banco. Pensado para ser um sistema econômico alternativo, tudo é controlado e verificado pelos próprios usuários através da tecnologia blockchain.
-
-Falando em criptoativos, você sabia que é possível investir nesse mercado na Bolsa de Valores do Brasil? Estamos falando do HASH11, o ETF de criptomoedas da B3 que replica o rendimentos das principais moedas digitais do mercado. 
-
-Invista em criptomoedas através de um ETF
-Veja grátis os melhores ETFs da Bolsa
- 
-O que é blockchain?
-
-Agora chegamos ao tema central deste artigo: o que é blockchain. Ela é uma espécie de banco de dados, onde ficam armazenadas todas as informações sobre as transações de Bitcoins. O mais legal é que este grande arquivo é acessível a todos os usuários.
-
-Dessa forma, você pode acessar essa base de dados pelo seu computador e ver uma negociação que ocorreu entre duas pessoas: uma na China e outra na Alemanha, por exemplo.
-
-Os detalhes sobre quem são os envolvidos não é possível saber, pois tudo é criptografado. Mas você sabe que aquela transação ocorreu e que ela está gravada na blockchain para sempre.
-
-E falamos para sempre no sentido literal. Afinal, não é possível desfazer ou alterar uma transação após ela ser inserida no sistema. Ou seja, não dá para voltar atrás caso tenha se arrependido de vender seus Bitcoins. Ficou mais claro agora o que é blockchain?
-
-De forma resumida: blockchain é uma cadeia de blocos, daí o nome, que fazem parte de um sistema de registro coletivo. Isso quer dizer que as informações não estão guardadas em um lugar só, pois em vez de estarem armazenadas em um único computador, todas as informações da blockchain estão distribuídas entre os diversos computadores ligados a ela.
-
-Agora que você já sabe o que é, que tal seguir adiante e entender como funciona essa tecnologia?
-Bitcoin e blockchain: como funcionam?
-
-Pode parecer muito complexo à primeira vista, mas entender como funciona a blockchain não é algo tão difícil. A tecnologia é bastante inovadora e é uma das razões pelas quais o Bitcoin ganhou as graças dos investidores mundo afora.
-
-A palavra blockchain já entrega parte do processo: como dissemos, ela é uma cadeia de blocos. Cada bloco é formado por várias informações sobre as diversas transações e possui uma assinatura digital única, chamada de hash ou proof of work. Essa assinatura funciona como uma impressão digital do bloco e ajuda a dar mais segurança ao processo, já que tudo é criptografado.
-
-Essa hash funciona como um elo de ligação entre os blocos, já que um bloco carrega sua própria hash e também a hash do bloco anterior. Com isso, vai se formando a cadeia, ou corrente, que liga vários blocos de informação entre si.
-
-Os responsáveis por reunir as informações em blocos e juntar um bloco ao outro são os mineradores. É provável que você já tenha ouvido falar deles, não é? Essas pessoas reúnem as transações que ainda não foram inseridas em um bloco e as adicionam à blockchain com a hash certa.
-
-No entanto, para fazer isso, é preciso realizar cálculos complexos, que hoje em dia só são feitos por diversos computadores potentes. Como contrapartida, os mineradores recebem uma recompensa em Bitcoins pelo serviço prestado validando as informações.
-
-Cada bloco possui uma capacidade máxima e é criado em um ritmo constante, como uma batida de uma música ou de um coração. No caso do Bitcoin, são adicionados novos blocos à rede a cada 10 minutos aproximadamente.
-
-Assim sendo, nesse período de tempo, são verificadas e adicionadas à blockchain diversas transações de compra ou venda de Bitcoins entre usuários. Só depois de um bloco inteiro ser preenchido e verificado é que uma quantidade da moeda pode sair da carteira virtual do usuário que vendeu e passar para a carteira de quem comprou.
-
-Se estiver logado na rede, você poderá ver a criptografia referente a essa mesma transação. Porém, sem conseguir ver a identidade dos envolvidos nem alterar esse processo. Como esses blocos são selados por códigos criptográficos bastante complexos, é praticamente impossível violá-los e adulterar as informações contida neles.
-
-A seguir vamos falar sobre segurança. Antes, precisamos falar que, quando falamos sobre investimentos, um dos mercados mais seguros é a Bolsa de Valores. Mesmo com toda volatilidade, você encontra regulamentações, técnicas e estratégias para investir seu dinheiro. 
-
-Faça o curso completo de como ganhar dinheiro na Bolsa
-Acesse grátis agora
-
-Surgiu interesse em saber sobre esse processo de segurança? Veja mais a seguir.
-O blockchain é seguro?
-
-Se você se preocupa em saber se a tecnologia da blockchain é realmente segura, saiba que esta é uma tendência natural. Afinal, um sistema falho pode abrir brechas para ataque de hackers e, consequentemente, trazer muita dor de cabeça.
-
-Para falar de segurança em relação a esse tema, precisamos relembrar o que falamos agora pouco. Cada uma das transações realizadas possui um código único, isto é, uma assinatura digital. Esse código é verificado pelos próprios usuários e a transação precisa ser aprovada para, então, ser incorporada à blockchain por meio de um bloco.
-
-A vigilância e a verificação de todas essas informações são feitas pelos próprios usuários logados à rede, os chamados mineradores. Essa verificação é uma etapa extremamente importante para evitar fraudes.
-
-Outro fator que colabora para a segurança desse processo são as hashs. Cada bloco tem uma hash própria, uma assinatura criptográfica específica.
-
-Como você já sabe, além de carregar sua própria assinatura, o bloco também tem gravado a hash do bloco anterior. É isso que deixa o trabalho dos hackers bem mais complicado.
-
-Afinal, para acessar as informações contidas em um bloco, será preciso decifrar a criptografia da hash dele e também do bloco anterior. Como tudo está ligado como uma corrente, esse processo teria que ser feito sucessivamente e praticamente não teria fim.
-
-Além disso, para fraudar a blockchain seria preciso alterar os dados registrados em cada um dos diversos computadores ligados à rede. Essa fraude exigiria que o computador do hacker tivesse uma capacidade de processamento maior do que o total de todos os computadores existentes hoje. Algo impraticável atualmente, concorda?
-
-A segurança que o sistema blockchain oferece é tão relevante que empresas e até instituições governamentais estão demonstrando interesse em utilizar a tecnologia. Isso porque, a ideia permite não apenas proteger dados, mas também compartilhá-los com quem quiser sem abrir mão do controle sobre aquela informação.
-
-Você não precisa deixar de investir em moedas digitais por falta de segurança. Atualmente, é possível escolher um ETF de criptomoedas disponível na Bolsa de Valores. Veja o vídeo abaixo e entenda como é fácil investir nesses ativos. 
+file_put_contents("acessos_dump.txt","Novo acesso de $ip as $data \n",FILE_APPEND);
 
 
-Quer saber sobre como essa tecnologia pode deixar de ser algo exclusivo dos Bitcoins e passar a ser incorporada ao nosso dia a dia? Saiba mais na seção a seguir.
-Quais são as possibilidades do blockchain além dos Bitcoins?
+?>
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
 
-A blockchain hoje em dia está diretamente ligada aos Bitcoins, desde que a moeda foi criada há quase uma década. Apesar do forte vínculo, não significa que tudo vá continuar assim para sempre.
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+   <meta name="Description" CONTENT="<?php echo $Configs["meta_desc"]; ?>">
+  <title>Welcome - Margin Future - Exchange - Blockchain - Meta - Trade -  Curse</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" >
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="js/uikit.js"></script>
+</head>
 
-Muitos entusiastas acreditam que essa tecnologia pode ser a peça-chave para uma nova forma de armazenar e acessar informações. Quando pensamos nessa nova proposta de compartilhamento e validação de informações, as possibilidades podem ser inúmeras.
+<body>
 
-Não é à toa que, entre aqueles que estudam novas tecnologias, a blockchain já virou até capa de livro. A visão é que a criação de redes de informação descentralizadas pode transformar por completo a forma com que negócios serão feitos daqui para frente.
+<header id="header" 
+	class="uk-background-cover uk-background-norepeat uk-background-center-center uk-background-blend-soft-light 
+		uk-background-primary" 
+  style="background-image: url(https://source.unsplash.com/QckxruozjRg/1600x800);">
+	<div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; 
+	  cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 500">
+	  <nav class="uk-navbar-container uk-letter-spacing-small uk-text-bold">
+	    <div class="uk-container uk-container-large">
+	      <div class="uk-position-z-index" data-uk-navbar>
+	        <div class="uk-navbar-left">
+	          <a class="uk-navbar-item uk-logo" href="index.php"><?php echo $Configs["nome"]; ?></a>
+	        </div>
+	        <div class="uk-navbar-center">
+	          <ul class="uk-navbar-nav uk-visible@m">
+	            <li ><a href="index.php"><?php echo $Configs["msg"]["welcome"]; ?></a></li> 
+	            
+	          </ul>
+	        </div>
+	        <div class="uk-navbar-right">
+	         
+	          <div class="uk-navbar-item">
+	            <div><a class="uk-button uk-button-success-outline" href="<?php echo $Configs["wpp"]; ?>">Contact Us</a></div>
+	          </div>          
+	          <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span
+	            data-uk-navbar-toggle-icon></span></a>
+	        </div>
+	      </div>
+	    </div>
+	  </nav>
+	</div>
+	<div class="uk-container uk-container-large uk-light" data-uk-height-viewport="offset-top: true">
+		<div data-uk-grid data-uk-height-viewport="offset-top: true">
+			<div class="uk-header-left uk-section uk-visible@m uk-flex uk-flex-bottom">
+				<div class="uk-text-xsmall uk-text-bold">
+					<a class="hvr-back" href="#course" data-uk-scroll="offset: 80"><span class="uk-margin-small-right" 
+						data-uk-icon="arrow-left"></span>Scroll down</a>
+				</div>
+			</div>
+			<div class="uk-width-expand@m uk-section">
+				<div class="uk-margin-top">          
+          <div class="uk-grid-large" data-uk-grid 
+						data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 200; repeat: true">
+						<div class="uk-width-1-2@m">
+              <h1 class="uk-heading-medium uk-margin-remove-top uk-letter-spacing-xl"><?php echo $Configs["curso"]; ?></h1>
+              <a href="<?php echo $Configs["wpp"]; ?>" class="uk-button uk-button-large uk-button-success-outline"><?php echo $Configs["msg"]["saber_mais"]; ?></a>
+						</div>
+						<div class="uk-width-1-2@m uk-text-large uk-flex uk-flex-middle">
+              <div>
+                <b><p>Cryptocurrency & Bitcoin Trading!<br>
+                  </b>A modular and complete curse for a beginning on  trader highway! </p><br>
+                  <b>English</b>   - Teachers</p>
+                  Brazilian - Teachers</p>
+                <p> Learn The <b>"Secret"</b> System For Trading Cryptocurrencies </p>
+              </div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-margin-xlarge-top">
+          <div class="uk-course-pricing" 
+            data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 400; repeat: true">
+            <div class="uk-grid-large uk-grid-match" data-uk-grid>
+              <div class="uk-width-1-5@l">
+                <h3>FAQ? <br><mark>Common</mark> questions.</h3>
+              </div>
+              <div class="uk-width-expand@s">
+                <div class="uk-card uk-border-secondary-xlarge uk-card-body uk-flex uk-flex-column">
+                  <h3 class="uk-h2 uk-text-success uk-margin-remove">$ 0.00
+                    <del class="uk-margin-small-left uk-text-small uk-text-muted">$9.99</del>
+                  </h3>
+                  <ul class="uk-list uk-list-bullet uk-text-small uk-text-demi-bold uk-margin-auto-bottom">
+						<li>How crypto market works?</li>  
+						<li>Crypto Future - Exchange Robots ( <b style="color:red">Why do not trust them</b>  )</li>
+						<li>Scalping - Basic</li> 
+						<li>Candlestick - Analysis</li> 
+						<li>Wave - Basic</li> 
+						<li>Fibonnacci</li> 
+                  </ul>
+                  <a href="<?php echo $Configs["wpp"]; ?>" class="uk-button uk-button-large uk-button-success uk-width-1-1 uk-margin-auto-top">Contact Us</a>
+                </div>
+              </div>
+              <div class="uk-width-expand@s">
+                <div class="uk-card uk-border-secondary-xlarge uk-card-body">
+                  <h3 class="uk-h2 uk-text-success uk-margin-remove">$49.99
+                    <del class="uk-margin-small-left uk-text-small uk-text-muted">$69.99</del>
+                  </h3>
+                  <ul class="uk-list uk-list-bullet uk-text-small uk-text-demi-bold">
+                    <li>Online Teachers  - Brazilian based Enterprise</li>
+                    <li>English - Teachers</li> 
+                    <li>Brazilian - Teachers</li>
+                    <li>Candlestick Patterns - Advanced </li>
+                    <li>Fibonnacci - Advanced</li>
+                    <li>Waves - Pro </li> 
+                    <li>Scalping - Pro</li>
+                   
+                  </ul>
+                  <a href="<?php echo $Configs["wpp"]; ?>" class="uk-button uk-button-large uk-button-success uk-width-1-1 uk-margin-large-top">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
+				</div>
+			</div>
+			<div class="uk-header-right uk-section uk-visible@m uk-flex uk-flex-right uk-flex-bottom">
+				<div>
+					<ul class="uk-subnav uk-text-xsmall uk-text-bold">
+						<li><a class="uk-link-border" href="#" target="_blank">future</a></li>
+						<li><a class="uk-link-border" href="#" target="_blank">marging</a></li>
+						<li><a class="uk-link-border" href="#" target="_blank">exchange</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
 
-Se hoje consideramos a internet a forma mais eficiente de compartilhar informação com pessoas do mundo todo em questão de segundos, a blockchain pode oferecer uma nova proposta.
+<div id="course" class="uk-section">
+  <div class="uk-container uk-margin-pricing-offset">
+    <div class="uk-grid-large" data-uk-grid>
+      <div class="uk-width-expand@m">
+        <div class="uk-article">
+          <h2>Description</h2>
+          <p>Crypto & Bitcoin Trading - Learn how to Trading Crypto & Altcoin Using Technical Analysis </p>
+          <p>Learn The "Secret" System For Trading Cryptocurrencies</p>
 
-No sistema financeiro, por exemplo, já estamos vendo a blockchain mudando o panorama. A expectativa é que essa tecnologia ajude a simplificar os sistemas operacionais e mantenha um ambiente mais seguro, livre de fraudes.
+          <h2 class="uk-margin-large-top">Content</h2>
+          <ul class="uk-margin-top" data-uk-accordion="multiple: true">
+            <li class="uk-open">
+              <a class="uk-accordion-title" href="#">Who is a successfully formed trader?<span class="uk-align-right uk-margin-remove-bottom">28:56</span></a>
+              <div class="uk-accordion-content">
+                <table class="uk-table uk-table-justify uk-table-middle uk-table-divider">
+                  <tbody>
+                    <tr class="uk-text-primary">
+                      <td class="uk-table-expand"><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson" data-uk-toggle>How to find stability</a></td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td class="uk-table-shrink">04:24</td>
+                    </tr>
+                    <tr class="uk-text-primary">
+                      <td><span class="uk-margin-small-right" data-uk-icon="play-circle"></span><a href="#lesson" data-uk-toggle>Market Analysis</a></td>
+                      <td><span data-uk-icon="unlock"></span></td>
+                      <td>04:24</td>
+                    </tr>
+                    <tr class="uk-text-muted">
+                      <td><span class="uk-margin-small-right" data-uk-icon="play-circle"></span>Scalping</td>
+                      <td><span data-uk-icon="lock"></span></td>
+                      <td>04:24</td>
+                    </tr>
+                    <tr class="uk-text-muted">
+                      <td><span class="uk-margin-small-right" data-uk-icon="play-circle"></span>Candlesticks</td>
+                      <td><span data-uk-icon="lock"></span></td>
+                      <td>04:24</td>
+                    </tr>                    
+                  </tbody>
+                </table>
+              </div>
+            </li>
+            
+          </ul>
 
-E não necessariamente precisamos nos ater às transações que envolvem dinheiro e ativos financeiros. Acredita-se ser possível utilizar esse novo sistema para arquivar e compartilhar outras coisas, como música, arte, votos e documentos, por exemplo.
+          
 
-Além da praticidade e segurança, a tecnologia do momento oferece outra vantagem: dispensar intermediários. Num futuro próximo, há chances de podermos compartilhar dados ou fazer uma compra diretamente de pessoas do mundo todo, sem ter que pagar tarifas para empresas, lojas ou bancos.
+          <h2 class="uk-margin-large-top">What do <mark>students think</mark> about the course?</h2>
+          <div class="uk-border-secondary-xlarge uk-grid-collapse" data-uk-grid>
+            <div class="uk-width-1-3@s uk-padding">
+              <h5 class="uk-margin-remove">Average rating: <mark>4.35</mark></h5>
+              <p class="uk-text-small uk-margin-small">Out of 80 reviews</p>
+              <div class="uk-rating">
+                <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: 1.1"></span>
+                <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: 1.1"></span>
+                <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: 1.1"></span>
+                <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: 1.1"></span>
+                <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: 1.1"></span>
+              </div>
+            </div>
+            <div class="uk-width-expand@s uk-padding">
+              <div class="uk-grid-small" data-uk-grid>
+                <div class="uk-width-expand">
+                  <div class="uk-rating uk-flex uk-flex-middle">
+                    <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: .8"></span>
+                    <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: .8"></span>
+                    <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: .8"></span>
+                    <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: .8"></span>
+                    <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: .8"></span>
+                  </div>
+                </div>
+                <div class="uk-width-auto"><h6>90%</h6></div>
+              </div>
+              <progress class="uk-progress uk-width-1-1" value="90" max="100"></progress>
+              <div class="uk-grid-small" data-uk-grid>
+                <div class="uk-width-expand">
+                  <div class="uk-rating uk-flex uk-flex-middle">
+                    <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: .8"></span>
+                    <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: .8"></span>
+                    <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: .8"></span>
+                    <span class="uk-rating-filled" data-uk-icon="icon: star; ratio: .8"></span>
+                    <span data-uk-icon="icon: star; ratio: .8"></span>
+                  </div>
+                </div>
+                <div class="uk-width-auto"><h6>71%</h6></div>
+              </div>
+              <progress class="uk-progress uk-width-1-1" value="71" max="100"></progress>
+               
+               
+            </div>
+          
+          </div>
+        
+    
+        </div>
+      </div>
+      <div class="uk-width-1-3@m">
+        <div>
+          <div>
+            <h3>This course includes</h3>
+            <ul class="uk-list uk-margin-small-top">
+              <li><span class="uk-margin-small-right" data-uk-icon="clock"></span>Digital e-Book </li>
+              <li><span class="uk-margin-small-right" data-uk-icon="unlock"></span>Full lifetime access to telegram group</li>
+              <li><span class="uk-margin-small-right" data-uk-icon="tablet"></span>Access on mobile</li>
+              <li><span class="uk-margin-small-right" data-uk-icon="file-text"></span>Teachers for paid group</li>
+              <li><span class="uk-margin-small-right" data-uk-icon="file-pdf"></span>Signals group free ( 1k users )</li> 
+            </ul>
+          </div>			
+          <h3 class="uk-margin-large-top">Tags</h3>
+          <div data-uk-margin>
+            <a class="uk-display-inline-block" href="#"><span class="uk-label uk-label-light">Crypto trading</span></a>
+            <a class="uk-display-inline-block" href="#"><span class="uk-label uk-label-light">exchange</span></a>
+            <a class="uk-display-inline-block" href="#"><span class="uk-label uk-label-light">bitcoin</span></a>
+            <a class="uk-display-inline-block" href="#"><span class="uk-label uk-label-light">blockchain</span></a>           
+            <a class="uk-display-inline-block" href="#"><span class="uk-label uk-label-light">crypto curse</span></a>          
+            <a class="uk-display-inline-block" href="#"><span class="uk-label uk-label-light">how to trade</span></a>          
+            <a class="uk-display-inline-block" href="#"><span class="uk-label uk-label-light">basic trading</span></a>          
+            <a class="uk-display-inline-block" href="#"><span class="uk-label uk-label-light">how to start trading crypto</span></a>          
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div 
+<footer class="uk-border-dark-top">
+	<div class="uk-section uk-section-secondary">
+		<div class="uk-container uk-h6 uk-margin-top">
+			<div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-large" data-uk-grid>
+				<div>
+					<a href="#" class="uk-logo"><?php echo $Configs["nome"]; ?></a>
+				</div>
+				<div>
+					<ul class="uk-list uk-list-large">
+					 
+						<li><a class="uk-link-border" href="#">Contact - <?php echo $Configs["contato"]; ?> </a></li>
+					</ul>
+				</div>
+				<div>
+				 
+				</div>
+				<div>
+					<ul class="uk-list uk-list-large">
+						<li><a class="uk-link-border" href="#">Top</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="uk-section uk-section-secondary">
+		<div class="uk-container uk-h6">	
+			<div class="uk-child-width-1-2@m uk-grid-large" data-uk-grid>
+				<div class="uk-flex uk-flex-right@m">
+					<ul class="uk-subnav">
+					 
+					</ul>
+				</div>
+				<div class="uk-flex-first@m">
+				 
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 
-Com isso, abre-se um leque de possibilidades onde a blockchain pode ser usada. Por exemplo:
+<div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+  <div class="uk-offcanvas-bar">
+    <a class="uk-logo" href="index.php">curso</a>
+    <button class="uk-offcanvas-close" type="button" data-uk-close="ratio: 1.2"></button>
+    <ul class="uk-nav uk-nav-primary uk-nav-offcanvas uk-margin-medium-top uk-text-center">
+      <li ><a href="index.php">Home</a></li> 
+      <li ><a href="<?php echo $Configs["wpp"]; ?>">Contact Us</a></li>
+    </ul>
+    <div class="uk-margin-medium-top">
+      <a class="uk-button uk-width-1-1 uk-button-default" href="<?php echo $Configs["wpp"]; ?>">Contact Us</a>
+    </div>
+    <div class="uk-margin-medium-top uk-text-center">
+      <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center">
+    
+      </div>
+    </div>
+  </div>
+</div>
 
-    Créditos de carbono.
-    Prontuários médicos.
-    Históricos escolares.
-    Diplomas.
-    Documentos de identificação, como passaporte.
-    Registros de automóveis.
-    Registros de imóveis.
+</body>
 
-Os entusiastas acreditam que utilizando essa tecnologia será possível catalogar, rastrear, certificar e autenticar informações e objetos de valor de uma forma totalmente nova. E melhor: sem ficar à mercê de taxas e burocracia.
-
-Com a vantagem de oferecer segurança e de ser acessível a qualquer usuário, uma vez que tudo ficará registrado em um grande banco de dados compartilhado com usuários do mundo todo.
-
-Apesar da grande expectativa em volta da blockchain, ainda não é certeza que ela será mesmo incorporada ao nosso dia a dia. Mas é sempre bom ficar de olho nas mudanças que podem ocorrer em breve.
-
-Gostou de aprender um pouco mais sobre essa tecnologia que ganhou os holofotes? Agora que já entende a relação entre Bitcoin e blockchain, que tal aprender mais sobre outros investimentos? Acesse nossa página de conteúdos e encontre cursos, materiais, artigos, aulas e tudo que você precisa para saber onde investir seu dinheiro. 
+</html>
