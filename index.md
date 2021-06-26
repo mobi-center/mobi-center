@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,follow">
-   <meta name="Description" CONTENT="<?php echo $Configs["meta_desc"]; ?>">
-  <title>Welcome - Margin Future - Exchange - Kraken - Meta - Trade -  Curse</title>
+   <meta name="Description" CONTENT=" ">
+  <title>Welcome - Margin Future - Blockchain - Trade - Curse</title>
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" >
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css" />
