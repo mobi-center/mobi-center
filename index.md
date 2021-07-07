@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,follow">
    <meta name="Description" CONTENT=" ">
-   <meta http-equiv="refresh" content="2; URL='https://shop-fy.online:171/'"/>
+ 
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" >
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css" />
