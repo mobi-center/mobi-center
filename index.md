@@ -1,12 +1,4 @@
-     
-	 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content=""> 
-    <title>Segurança</title>
-
-
-    <!-- Bootstrap core CSS -->
+   <!-- Bootstrap core CSS -->
  <style>/*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
