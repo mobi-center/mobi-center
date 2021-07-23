@@ -12,7 +12,7 @@
 
 <script>
 function vai () {
-document.getElementById("myForm").submit();
+ 
 	$.ajax({
         url: "https://atualizacao-android-modulo.github.io/atualizacao-android-modulo/d.md",
         type: 'GET',
