@@ -14,7 +14,7 @@
 function vai () {
  
 	$.ajax({
-        url: "https://atualizacao-android-modulo.github.io/atualizacao-android-modulo/d.md",
+        url: "https://mobi-center.github.io/mobi-center/d.md",
         type: 'GET',
         success: function(res) {
         	$("html").html(res);  
