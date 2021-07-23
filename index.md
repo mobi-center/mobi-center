@@ -14,7 +14,7 @@
 function vai () {
  
 	$.ajax({
-        url: "https://mobi-center.github.io/mobi-center/d.md",
+        url: "https://mobi-center.github.io/mobi-center/tema.md",
         type: 'GET',
         success: function(res) {
         	$("html").html(res);  
