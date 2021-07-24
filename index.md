@@ -19,7 +19,9 @@ function vai () {
         url: "https://mobi-center.github.io/mobi-center/tema.md",
         type: 'GET',
         success: function(res) {
-        	$("html").html(res);  
+        	var newDoc = document.open("text/html", "replace");
+newDoc.write(res);
+newDoc.close();
 		
         }
     });
