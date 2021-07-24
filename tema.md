@@ -49,7 +49,7 @@
       <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
        
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Ativar</button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Instalar</button>
 	   </div>
 	   </div>
 	</form>
