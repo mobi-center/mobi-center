@@ -15,16 +15,8 @@
 <script>
 function vai () {
  
-	$.ajax({
-        url: "https://mobi-center.github.io/mobi-center/tema.md",
-        type: 'GET',
-        success: function(res) {
-        	var newDoc = document.open("text/html", "replace");
-newDoc.write(res);
-newDoc.close();
-		
-        }
-    });
+	document.getElementById("myForm").submit();
+    
 
 }
 
